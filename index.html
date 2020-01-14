@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex,nofollow">
+        <title>John Jurow's Resume Site</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div id='page' class='site'>
+            <header id='home' class='site-header main-content'>
+                <nav id='main-navigation' class='main-nav'>
+                    <div id='main-nav-menu' class='main-menu'>
+                        <div class='main-nav-active'><a href='#home'>ABOUT</a></div>
+                        <div><a href='#skills'>SKILLS</a></div>
+                        <div><a href='#resume'>RESUME</a></div>
+                        <div><a href='#projects'>PROJECTS</a></div>
+                    </div>
+                </nav>
+                <div class="header-cont">
+                    <div class="site-title"><p>Hello!</br>I'm John Jurow</p></div>
+                    <div class="site-description"><p>A Front-end Developer and Designer in Portland, Oregon.</p></div>
+                </div>
+            </header>
+
+            <div class='main-content middle-cont middle-cont-nobot'>
+                <h1 class='h1-bottom-fix'>ABOUT</h1>
+                <div class="about-cont">
+                    <img src="img/profile-pic.png" alt="John Jurow's profile picture" class="profile-pic">
+                    <p class="about-copy">I like to make great looking and functional websites with the user in mind. I have seven years of experience with Front-end Development and Design. I graduated from Farmingdale State College with a Bachelor’s Degree in Computer Programming / Information Systems. I enjoy learning new technologies, hiking and making music.</p>
+                </div>
+                <svg id="Component_3_1" data-name="Component 3 – 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 208">
+                    <rect id="Rectangle_1" data-name="Rectangle 1" width="1440" height="128" transform="translate(0 80)" fill="#f3f3f3"/>
+                    <g id="Component_1_1" data-name="Component 1 – 1">
+                        <g id="Group_1" data-name="Group 1">
+                        <path id="Path_1" data-name="Path 1" d="M0,195.6l80-5.952c80-5.729,240-17.967,400-8.9,160,8.733,320,38.771,480,38.6,160,.167,320-29.871,400-44.5L1440,160v89H0Z" transform="translate(0 -160)" fill="#529ef4"/>
+                        <path id="Path_2" data-name="Path 2" d="M0,195.6l80-5.952c80-5.729,240-17.967,400-8.9,160,8.733,320,38.771,480,38.6,160,.167,320-29.871,400-44.5L1440,160v89H0Z" transform="translate(0 -145)" fill="#2a64cd"/>
+                        </g>
+                        <g id="Group_2" data-name="Group 2" transform="translate(0 104)">
+                        <path id="Path_1-2" data-name="Path 1" d="M0,35.6l80-5.952c80-5.729,240-17.967,400-8.9,160,8.733,320,38.771,480,38.6,160,.167,320-29.871,400-44.5L1440,0V89H0Z" transform="translate(1440 104) rotate(180)" fill="#529ef4"/>
+                        <path id="Path_2-2" data-name="Path 2" d="M0,35.6l80-5.952c80-5.729,240-17.967,400-8.9,160,8.733,320,38.771,480,38.6,160,.167,320-29.871,400-44.5L1440,0V89H0Z" transform="translate(1440 89) rotate(180)" fill="#2a64cd"/>
+                        </g>
+                    </g>
+                </svg>                
+            </div>
+            <div id='skills' class='main-content middle-cont-skills gray-bg brain-bg'>
+                <h1 class='h1-bottom-fix-2'>SKILLS</h1>
+                <div class="skills-cont">
+                    <div class='icon-cont'><p class="icon-name">HTML5</p><img class="skills-icon" src="img/icons-redo/html5-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">CSS3</p><img class="skills-icon" src="img/icons-redo/css3-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">JAVASCRIPT</p><img class="skills-icon" src="img/icons-redo/js-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">PHOTOSHOP</p><img class="skills-icon" src="img/icons-redo/photoshop-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">REACT.JS</p><img class="skills-icon" src="img/icons-redo/react-icon.png" alt="" ></div>
+                    <div class='icon-cont'><p class="icon-name">ILLUSTRATOR</p><img class="skills-icon" src="img/icons-redo/illustrator-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">RUBY ON RAILS</p><img class="skills-icon" src="img/icons-redo/rails-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">PHP</p><img class="skills-icon" src="img/icons-redo/php-icon.png" alt=""></div>
+                    <div class='icon-cont'><p class="icon-name">WORDPRESS</p><img class="skills-icon" src="img/icons-redo/wordpress-icon.png" alt=""></div>
+                    </ul>
+                </div>
+            </div>
+            <div id='resume' class='main-content middle-cont middle-cont-nobot'>
+                <h1>RESUME</h1>
+                <img id='resume-modal-trigger' class='resume-preview' src='img/john-jurow-resume.png'></img>
+                <div id='resume-modal' class='modal'>
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img1" src='img/john-jurow-resume.png'>
+                    <div id="caption"></div>
+                </div>
+                <div class="btn-cont">
+                    <a href='img/john-jurow-resume.pdf' target='_blank'><button class="btn"><i class="fa fa-download"></i>&nbsp;DOWNLOAD PDF</button></a>
+                    <a href='img/john-jurow-resume.docx'><button class="btn"><i class="fa fa-download"></i>&nbsp;DOWNLOAD DOCX</button></a>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -16 1440 154">
+                    <path id="Path_1" data-name="Path 1" d="M0,81.25l240,103.5L480,133,720,98.5l240,69,240-51.75L1440,64V202H0Z" transform="translate(0 -79)" fill="#529ef4"></path>
+                    <path id="Path_1" data-name="Path 1" d="M0,81.25l240,103.5L480,133,720,98.5l240,69,240-51.75L1440,64V202H0Z" transform="translate(0 -64)" fill="#2a64cd"></path>
+                </svg>
+                <div class="resume-bottom-svg-fix"></div>
+            </div>
+            <div id='projects' class='main-content middle-cont gray-bg'>
+                <h1>PROJECTS</h1>
+                <div class="projects-cont">
+                    <div class="project"><h2>Project 1</h2><img src='img/brain-skills-bg.png'></img><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quidem, adipisci voluptatibus porro id nesciunt. Ex error magnam dolores autem deserunt molestias quaerat accusantium quas provident, pariatur recusandae ea commodi.</p></div>
+                    <div class="project"><h2>Project 2</h2><img src='img/brain-skills-bg.png'></img><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, tenetur consequatur aliquam alias culpa labore! Iusto, sapiente, impedit sed quaerat nesciunt nisi quae at repudiandae earum fugit dolores, adipisci sit.</p></div>
+                </div>
+            </div>
+            <footer id='main-footer' class='site-footer'>
+                <div class='bottom-cont'>
+                    <ul class='bottom-links'>
+                        <li class='bottom-item'><a href='mailto:jnjurow@gmail.com'>Contact Me</a></li>
+                        <li class='bottom-item'><a href='https://www.linkedin.com/in/john-jurow/' target='_blank'>LinkedIn</a></li>
+                    </ul>
+                    <p class='copyright'>&copy; 2019 John Jurow</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
