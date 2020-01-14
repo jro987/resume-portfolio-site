@@ -216,7 +216,7 @@ body {
 }
 
 .main-nav-active a:hover {
-	color:#fcfcfc;
+	color:#fcfcfc!important;
 }
 
 /*--------------------------------------------------------------
