@@ -9,8 +9,11 @@
 	.main-menu div {
 		width:160px;
 	}
+	.main-menu div a {
+		padding:10px 0 10px 0;
+	}
 	.site-title {
-		padding-top:70px;
+		padding-top:90px;
 		width:360px;
 	}
 	.site-title p {
@@ -28,7 +31,15 @@
 	}
 	.middle-cont {
 		padding:50px 0 50px 0;
-		text-align:center;
+	}
+	.middle-cont-nobot {
+		padding:50px 0 0 0;
+	}
+	.middle-cont-skills {
+		padding:50px 0 30px 0;
+	}
+	.main-content h1 {
+		margin:0 0 40px 0;
 	}
 	.skills-icon {
 		height:81px;
@@ -48,7 +59,10 @@
 	.main-menu div {
 		width:180px;
 	}
-	.main-menu a:hover {
+	.main-menu div a {
+		padding:15px 0 15px 0;
+	}
+	.main-menu div a:hover {
 		color:#529ef4;
 	}
 	.site-title {
@@ -70,6 +84,15 @@
 	}
 	.middle-cont {
 		padding:70px 0 70px 0;
+	}
+	.middle-cont-nobot {
+		padding:70px 0 0 0;
+	}
+	.middle-cont-skills {
+		padding:70px 0 40px 0;
+	}
+	.main-content h1 {
+		margin:0 0 60px 0;
 	}
 	.skills-icon {
 		height:95px;
@@ -177,7 +200,6 @@ body {
 }
 
 .main-menu div a {
-	padding:15px 0 15px 0;
 	display:block;
 	width:100%;
     font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;
@@ -249,8 +271,6 @@ body {
 }
 
 .main-content h1 {
-	margin:0;
-	margin-bottom:60px;
 	padding:0;
 	text-align:center;
 	font-weight:600;
@@ -260,12 +280,7 @@ body {
 	text-align:center;
 }
 
-.middle-cont-nobot {
-	padding:70px 0 0 0;
-}
-
 .middle-cont-skills {
-	padding:70px 0 40px 0;
 	border-top-width:0!important;
 }
 
@@ -500,7 +515,6 @@ body {
 }
 
 .project {
-	display:inline-block;
 	margin:20px 25px;
 	border-radius:5px;
 	background-color:#fefefe;
