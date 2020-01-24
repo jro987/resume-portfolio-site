@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    // Navigation
     var headerHeight = $('#main-navigation').height();
 
     $('#page').css("margin-top", headerHeight + 'px');
