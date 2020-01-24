@@ -3,9 +3,6 @@
 
 
 @media only screen and (max-width: 600px) {
-	.main-menu {
-		width:100%;
-	}
 	.main-menu div {
 		width:160px;
 	}
@@ -50,12 +47,13 @@
 	.project {
 		width:320px;
 	}
+	.project img {
+		height:180px;
+		border:1px solid #333333;
+	}
 }
 
 @media only screen and (min-width: 601px) {
-	.main-menu {
-		width:100%;
-	}
 	.main-menu div {
 		width:180px;
 	}
@@ -102,6 +100,10 @@
 	}
 	.project {
 		width:450px;
+	}
+	.project img {
+		height:250px;
+		border:1px solid #333333;
 	}
 }
 
@@ -196,6 +198,8 @@ body {
     height:auto;
     margin-left:auto!important;
 	margin-right:auto!important;
+	width:100%;
+
 }
 
 .main-menu div {
@@ -537,11 +541,6 @@ body {
     font-weight: 900;
 	font-size: 22px;
 	padding:20px 0 10px 0;
-}
-
-.project img {
-	height:250px;
-	border:1px solid #333333;
 }
 
 .project p {
