@@ -33,11 +33,9 @@ var modal = document.getElementById("resume-modal");
 
 var img = document.getElementById("resume-modal-trigger");
 var modalImg = document.getElementById("img1");
-var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
 }
 
 var span = document.getElementsByClassName("close")[0];
