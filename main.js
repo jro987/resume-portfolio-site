@@ -1,20 +1,20 @@
-$(document).ready(function () {
-    headerResize();
-});
+// Header Resize on Window Resize
+function headerResize() {
+    let height = $('#main-navigation').height();
+    $('#page').css("margin-top", height + 'px');
+}
+
+headerResize();
 
 window.onresize = () => {
     headerResize();
 }
 
-function headerResize() {
-    var headerHeight = $('#main-navigation').height();
-    $('#page').css("margin-top", headerHeight + 'px');
-}
-
 // Navigation
 $('.main-menu div a').click(function (e) {
 
-    var target = $(this).attr('href');
+    let headerHeight = $('#main-navigation').height();
+    const target = $(this).attr('href');
 
     $('html, body').animate({
         scrollTop: $(target).offset().top - headerHeight
