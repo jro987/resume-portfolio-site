@@ -38,6 +38,9 @@
 	.main-content h1 {
 		margin:0 0 40px 0;
 	}
+	.about-copy {
+		width:80%;
+	}
 	.skills-icon {
 		height:81px;
 	}
@@ -91,6 +94,9 @@
 	}
 	.main-content h1 {
 		margin:0 0 60px 0;
+	}
+	.about-copy {
+		width:70%;
 	}
 	.skills-icon {
 		height:95px;
@@ -332,7 +338,6 @@ body {
 }
 
 .about-copy {
-	width:70%;
 	margin:20px 20px 20px 20px;
 	align-self:center;
 	color:#333333;
