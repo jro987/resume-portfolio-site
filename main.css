@@ -46,6 +46,9 @@
 	.about-copy {
 		width:80%;
 	}
+	.brain-bg {
+		background-size:cover;
+	}
 	.skills-icon {
 		height:81px;
 	}
@@ -108,6 +111,9 @@
 	}
 	.about-copy {
 		width:70%;
+	}
+	.brain-bg {
+		background-size:contain;
 	}
 	.skills-icon {
 		height:95px;
@@ -375,7 +381,6 @@ body {
 .brain-bg {
 	background-image:url('img/brain-skills-bg.png');
 	background-position:bottom center;
-	background-size:contain;
 	background-repeat:no-repeat;
 }
 
