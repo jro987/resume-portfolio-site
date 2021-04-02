@@ -1,15 +1,3 @@
-// Header Resize on Window Resize
-function headerResize() {
-    let height = $('#main-navigation').height();
-    $('#page').css("margin-top", height + 'px');
-}
-
-headerResize();
-
-window.onresize = () => {
-    headerResize();
-}
-
 // Navigation
 $('.main-menu div a').click(function (e) {
 
